@@ -1,0 +1,62 @@
+{
+  "project": "The Sampla",
+  "liveUrl": "https://bearicide.github.io/the-sampla/",
+  "repo": "https://github.com/bearicide/the-sampla",
+  "packs": [
+    {
+      "id": "99sounds-drum-samples",
+      "name": "99Sounds Drum Samples",
+      "type": "hiphop-drums",
+      "cost": "free",
+      "format": "24-bit WAV",
+      "licenseSummary": "Royalty-free for commercial and non-commercial music use. Keep source attribution notes; do not assume raw-pack redistribution without checking current license text.",
+      "sourceUrl": "https://99sounds.org/drum-samples/",
+      "targetFolder": "assets/samples/hiphop/",
+      "recommendedFolders": ["kicks", "snares", "hats", "percs", "claps"]
+    },
+    {
+      "id": "fatloops-alpha",
+      "name": "FatLoops Alpha Free Sound Kit",
+      "type": "hiphop-trap-mixed",
+      "cost": "free",
+      "format": "WAV",
+      "licenseSummary": "100% royalty-free for beats according to source page. Download from source; avoid re-hosting raw pack unless license permits redistribution.",
+      "sourceUrl": "https://fatloops.com/sounds/alpha-free-sound-kit/",
+      "targetFolder": "assets/samples/trap/",
+      "recommendedFolders": ["808s", "kicks", "snares", "hats", "loops", "fx"]
+    },
+    {
+      "id": "fatloops-bones",
+      "name": "FatLoops Bones Dark Trap Kit",
+      "type": "dark-trap",
+      "cost": "free",
+      "format": "WAV + MIDI",
+      "licenseSummary": "100% royalty-free according to source page. Download from source; avoid raw redistribution unless permitted.",
+      "sourceUrl": "https://fatloops.com/sounds/bones-trap-kit/",
+      "targetFolder": "assets/samples/trap/",
+      "recommendedFolders": ["loops", "midi", "drums"]
+    },
+    {
+      "id": "newloops-free-trap-kit-2",
+      "name": "New Loops Free Trap Kit 2",
+      "type": "trap",
+      "cost": "free",
+      "format": "WAV, REX2, MIDI, sampler patches",
+      "licenseSummary": "100% royalty-free for songs, but redistribution is not allowed per source page. Use locally; do not commit raw files to GitHub.",
+      "sourceUrl": "https://newloops.com/pages/free-trap-sample-pack",
+      "targetFolder": "assets/samples/trap/",
+      "recommendedFolders": ["808s", "kicks", "snares", "claps", "fx", "loops"]
+    },
+    {
+      "id": "musicradar-sampleradar",
+      "name": "MusicRadar SampleRadar Hub",
+      "type": "large-sample-library",
+      "cost": "free",
+      "format": "WAV",
+      "licenseSummary": "Royalty-free for music production; do not redistribute raw samples. Link to source pages.",
+      "sourceUrl": "https://www.musicradar.com/news/tech/free-music-samples-royalty-free-loops-hits-and-multis-to-download-sampleradar",
+      "targetFolder": "assets/samples/_external-only/",
+      "recommendedFolders": ["reference-only"]
+    }
+  ]
+}
