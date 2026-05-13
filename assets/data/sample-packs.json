@@ -2,39 +2,65 @@
   "project": "The Sampla",
   "liveUrl": "https://bearicide.github.io/the-sampla/",
   "repo": "https://github.com/bearicide/the-sampla",
-  "packs": [
+  "rule": "Only commit raw samples when the source clearly permits redistribution or uses CC0/public-domain terms. Royalty-free-for-music-only packs stay as import/source links.",
+  "redistributablePacks": [
     {
-      "id": "99sounds-drum-samples",
-      "name": "99Sounds Drum Samples",
-      "type": "hiphop-drums",
+      "id": "producer-space-cc0-megapack",
+      "name": "Producer Space - 18 CC0 Public Domain Sample Packs",
+      "type": "multi-pack-vocals-midi-loops-fx",
       "cost": "free",
-      "format": "24-bit WAV",
-      "licenseSummary": "Royalty-free for commercial and non-commercial music use. Keep source attribution notes; do not assume raw-pack redistribution without checking current license text.",
-      "sourceUrl": "https://99sounds.org/drum-samples/",
-      "targetFolder": "assets/samples/hiphop/",
-      "recommendedFolders": ["kicks", "snares", "hats", "percs", "claps"]
+      "format": "WAV / MIDI / construction kits depending on pack",
+      "license": "CC0 Public Domain",
+      "redistribution": "allowed by CC0/public-domain statement on source page",
+      "sourceUrl": "https://producerspace.com/",
+      "downloadNote": "Source page links to a 2.3GB Mega download. Best single target for repo-safe source harvesting.",
+      "targetFolder": "assets/samples/cc0/producer-space/",
+      "recommendedUse": ["vocal one-shots", "spoken words", "phrases", "vocal percussion", "dance shouts", "tech words", "progressions"]
     },
     {
-      "id": "fatloops-alpha",
-      "name": "FatLoops Alpha Free Sound Kit",
-      "type": "hiphop-trap-mixed",
+      "id": "opengameart-cc0-drum-and-bass-loop",
+      "name": "OpenGameArt - Drum and Bass Loop",
+      "type": "loop",
       "cost": "free",
       "format": "WAV",
-      "licenseSummary": "100% royalty-free for beats according to source page. Download from source; avoid re-hosting raw pack unless license permits redistribution.",
-      "sourceUrl": "https://fatloops.com/sounds/alpha-free-sound-kit/",
-      "targetFolder": "assets/samples/trap/",
-      "recommendedFolders": ["808s", "kicks", "snares", "hats", "loops", "fx"]
+      "license": "CC0",
+      "redistribution": "allowed by CC0 license",
+      "sourceUrl": "https://opengameart.org/content/drum-and-bass",
+      "targetFolder": "assets/samples/cc0/opengameart/loops/"
     },
     {
-      "id": "fatloops-bones",
-      "name": "FatLoops Bones Dark Trap Kit",
-      "type": "dark-trap",
+      "id": "opengameart-cc0-get-equipped",
+      "name": "OpenGameArt - Get Equipped 8-bit Drum Loop",
+      "type": "loop",
       "cost": "free",
-      "format": "WAV + MIDI",
-      "licenseSummary": "100% royalty-free according to source page. Download from source; avoid raw redistribution unless permitted.",
-      "sourceUrl": "https://fatloops.com/sounds/bones-trap-kit/",
-      "targetFolder": "assets/samples/trap/",
-      "recommendedFolders": ["loops", "midi", "drums"]
+      "format": "WAV",
+      "license": "CC0",
+      "redistribution": "allowed by CC0 license",
+      "sourceUrl": "https://opengameart.org/content/get-equipped-8-bit-drum-loop",
+      "targetFolder": "assets/samples/cc0/opengameart/loops/"
+    },
+    {
+      "id": "pixabay-cc0-sound-effects",
+      "name": "Pixabay CC0 Sound Effects Search",
+      "type": "cc0-single-sounds",
+      "cost": "free",
+      "format": "varies",
+      "license": "CC0 / public domain filter",
+      "redistribution": "use only items explicitly marked CC0/public-domain",
+      "sourceUrl": "https://pixabay.com/sound-effects/search/cc0/",
+      "targetFolder": "assets/samples/cc0/pixabay/"
+    }
+  ],
+  "sourceOnlyPacks": [
+    {
+      "id": "musicradar-sampleradar",
+      "name": "MusicRadar SampleRadar Hub",
+      "type": "large-sample-library",
+      "cost": "free",
+      "format": "WAV",
+      "licenseSummary": "Royalty-free for music production, but redistribution is prohibited. Use as local import only.",
+      "sourceUrl": "https://www.musicradar.com/news/tech/free-music-samples-royalty-free-loops-hits-and-multis-to-download-sampleradar",
+      "targetFolder": "assets/samples/_external-only/"
     },
     {
       "id": "newloops-free-trap-kit-2",
@@ -42,21 +68,9 @@
       "type": "trap",
       "cost": "free",
       "format": "WAV, REX2, MIDI, sampler patches",
-      "licenseSummary": "100% royalty-free for songs, but redistribution is not allowed per source page. Use locally; do not commit raw files to GitHub.",
+      "licenseSummary": "Royalty-free for songs, redistribution not allowed. Use local import only.",
       "sourceUrl": "https://newloops.com/pages/free-trap-sample-pack",
-      "targetFolder": "assets/samples/trap/",
-      "recommendedFolders": ["808s", "kicks", "snares", "claps", "fx", "loops"]
-    },
-    {
-      "id": "musicradar-sampleradar",
-      "name": "MusicRadar SampleRadar Hub",
-      "type": "large-sample-library",
-      "cost": "free",
-      "format": "WAV",
-      "licenseSummary": "Royalty-free for music production; do not redistribute raw samples. Link to source pages.",
-      "sourceUrl": "https://www.musicradar.com/news/tech/free-music-samples-royalty-free-loops-hits-and-multis-to-download-sampleradar",
-      "targetFolder": "assets/samples/_external-only/",
-      "recommendedFolders": ["reference-only"]
+      "targetFolder": "assets/samples/_external-only/trap/"
     }
   ]
 }
