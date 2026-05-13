@@ -5,6 +5,19 @@
   "rule": "Only commit raw samples when the source clearly permits redistribution or uses CC0/public-domain terms. Royalty-free-for-music-only packs stay as import/source links.",
   "redistributablePacks": [
     {
+      "id": "signature-sounds-trap-vault-drum-loops",
+      "name": "Signature Sounds - Trap Vault Drum Loops",
+      "type": "trap-drum-loops",
+      "cost": "free",
+      "format": "WAV 44.1kHz 16-bit",
+      "license": "CC0",
+      "redistribution": "source page says License: CC0, free to use in any project, no credit required",
+      "sourceUrl": "https://signaturesounds.org/store/p/trap-vault-drum-loops",
+      "downloadNote": "49 tempo-labeled trap drum loops, approx 40MB unzipped. Best current trap-loop target for The Sampla.",
+      "targetFolder": "assets/samples/cc0/signature-sounds/trap-vault/loops/",
+      "recommendedUse": ["trap drum loops", "drill bounce", "phonk layers", "hi-hat patterns", "kick-snare combos"]
+    },
+    {
       "id": "producer-space-cc0-megapack",
       "name": "Producer Space - 18 CC0 Public Domain Sample Packs",
       "type": "multi-pack-vocals-midi-loops-fx",
@@ -13,9 +26,45 @@
       "license": "CC0 Public Domain",
       "redistribution": "allowed by CC0/public-domain statement on source page",
       "sourceUrl": "https://producerspace.com/",
-      "downloadNote": "Source page links to a 2.3GB Mega download. Best single target for repo-safe source harvesting.",
+      "downloadNote": "2.3GB Mega download, 18 packs, 2,000+ samples. Best big CC0 source harvest.",
       "targetFolder": "assets/samples/cc0/producer-space/",
-      "recommendedUse": ["vocal one-shots", "spoken words", "phrases", "vocal percussion", "dance shouts", "tech words", "progressions"]
+      "recommendedUse": ["vocals", "phrases", "loops", "MIDI", "construction kits", "FX", "progressions"]
+    },
+    {
+      "id": "soundspool-chill-lofi-epiano-80bpm",
+      "name": "SoundSpool - Chill Lofi Epiano Loop 80 BPM",
+      "type": "lofi-melody-loop",
+      "cost": "free",
+      "format": "WAV 32-bit 192kHz stereo",
+      "license": "CC0",
+      "redistribution": "source page says public domain CC0, no attribution required",
+      "sourceUrl": "https://soundspool.com/sounds/chill-lofi-epiano-loop-80-bpmwav",
+      "targetFolder": "assets/samples/cc0/soundspool/lofi-loops/",
+      "recommendedUse": ["lofi melody loop", "hip-hop texture", "chop source"]
+    },
+    {
+      "id": "soundspool-dnb-loop-drum-perc",
+      "name": "SoundSpool - Drum n Bass Loop Drum + Perc",
+      "type": "breakbeat-drum-loop",
+      "cost": "free",
+      "format": "WAV 16-bit 44.1kHz stereo",
+      "license": "CC0",
+      "redistribution": "source page says public domain CC0, no attribution required",
+      "sourceUrl": "https://soundspool.com/sounds/drum-n-bass-loop-drum-perc",
+      "targetFolder": "assets/samples/cc0/soundspool/drum-loops/",
+      "recommendedUse": ["breakbeat", "jungle chop", "drum layer", "tempo experiment"]
+    },
+    {
+      "id": "pixabay-cc0-percussion-loops",
+      "name": "Pixabay - CC0 / Public-Domain Percussion Loop Search",
+      "type": "percussion-loop-search",
+      "cost": "free",
+      "format": "varies",
+      "license": "filter per item: CC0 / public domain only",
+      "redistribution": "use only items explicitly marked CC0/public-domain",
+      "sourceUrl": "https://pixabay.com/sound-effects/search/percussion%20loop/",
+      "targetFolder": "assets/samples/cc0/pixabay/percussion-loops/",
+      "recommendedUse": ["percussion loops", "trap layers", "background grooves"]
     },
     {
       "id": "opengameart-cc0-drum-and-bass-loop",
@@ -38,17 +87,6 @@
       "redistribution": "allowed by CC0 license",
       "sourceUrl": "https://opengameart.org/content/get-equipped-8-bit-drum-loop",
       "targetFolder": "assets/samples/cc0/opengameart/loops/"
-    },
-    {
-      "id": "pixabay-cc0-sound-effects",
-      "name": "Pixabay CC0 Sound Effects Search",
-      "type": "cc0-single-sounds",
-      "cost": "free",
-      "format": "varies",
-      "license": "CC0 / public domain filter",
-      "redistribution": "use only items explicitly marked CC0/public-domain",
-      "sourceUrl": "https://pixabay.com/sound-effects/search/cc0/",
-      "targetFolder": "assets/samples/cc0/pixabay/"
     }
   ],
   "sourceOnlyPacks": [
@@ -71,6 +109,16 @@
       "licenseSummary": "Royalty-free for songs, redistribution not allowed. Use local import only.",
       "sourceUrl": "https://newloops.com/pages/free-trap-sample-pack",
       "targetFolder": "assets/samples/_external-only/trap/"
+    },
+    {
+      "id": "dylann-taylor-super-16bit-sounds",
+      "name": "Dylann Taylor - SUPER 16-BIT SOUNDS",
+      "type": "retro-music-loops",
+      "cost": "name your own price / free",
+      "format": "WAV / OGG",
+      "licenseSummary": "CC0 for use in projects, but source says do not redistribute files as standalone assets. Use local import or bundled only inside a project build.",
+      "sourceUrl": "https://dylanntaylor.itch.io/super-16bit-sounds",
+      "targetFolder": "assets/samples/_external-only/retro-loops/"
     }
   ]
 }
