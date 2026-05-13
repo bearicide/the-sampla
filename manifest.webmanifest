@@ -1,0 +1,11 @@
+{
+  "name": "MATTBEAR - The Sampla",
+  "short_name": "The Sampla",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050509",
+  "theme_color": "#050509",
+  "description": "A neon 16-pad two-bank browser sampler by MATTBEAR.",
+  "icons": []
+}
